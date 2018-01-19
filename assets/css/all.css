@@ -423,7 +423,6 @@ div.output_subarea {
 
 #footer {
     text-align: center;
-    background-color: transparent !important; 
 }
 
 .container {
@@ -482,3 +481,10 @@ div.output_subarea {
     margin: 20px 0;
 }
 
+/* Undo asciidoctor.css */
+
+.vcard { border: 0px !important; }
+
+#footer {
+    background-color: transparent !important; 
+}
