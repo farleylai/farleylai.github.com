@@ -1,4 +1,0 @@
-Sitemap: http://farley.futuresight.io/sitemapindex.xml
-
-User-Agent: *
-Host: farley.futuresight.io
