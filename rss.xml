@@ -3,7 +3,7 @@
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/"&gt;
 &lt;img alt="Creative Commons License BY-NC-ND"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Fri, 19 Jan 2018 23:11:59 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>New Year 2018</title><link>http://farley.futuresight.io/posts/2018/01/new-year-2018.html</link><dc:creator>Farley Lai</dc:creator><description>&lt;div tabindex="-1" id="notebook" class="border-box-sizing"&gt;
+src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Fri, 19 Jan 2018 23:17:13 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>New Year 2018</title><link>http://farley.futuresight.io/posts/2018/01/new-year-2018.html</link><dc:creator>Farley Lai</dc:creator><description>&lt;div tabindex="-1" id="notebook" class="border-box-sizing"&gt;
     &lt;div class="container" id="notebook-container"&gt;
 
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
@@ -12,9 +12,9 @@ src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png"&gt;&lt;/a&gt;</copy
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;p&gt;For the new year, my personal website builder migrates from JBake to Nikola which supports posts in the Jupyter notebook format.
 Yes, it is an era where mixing code and text in writings is common.
-In the past, people may choose to incorporate code sections in some formats such as markdown.
-However, it is still text based document not designed to run!
-Jupyter notebook comes to rescue but a backend server is required.
+In the past, people may choose to incorporate code segments in some formats such as markdown.
+However, it is still a text based document format not designed to run!
+Jupyter notebook comes to our rescue but a backend server is required.
 &lt;a href="https://mybinder.org"&gt;Binder&lt;/a&gt; is likely the answer to playing with Jupyter notebooks hosted on GitHub on demand.
 Therefore, a static website turns into an interactive one just in a blink of eyes.&lt;/p&gt;
 &lt;p&gt;What a Happy New Year!&lt;/p&gt;
