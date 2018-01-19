@@ -1,0 +1,31 @@
+////
+.. title: Events
+.. slug: events
+.. date: 2018-01-19 16:36:40 UTC-05:00
+.. tags: 
+.. category: 
+.. link: 
+.. description: 
+.. type: text
+////
+= Events
+Farley Lai
+{docdatetime}
+:jbake-type: page
+:jbake-status: published
+:jbake-tags: academic
+
+== First CS Graduate Research Symposium at the University of Iowa
+
+=== High Performance Stream Processing for Mobile Sensing Applications
+
+Invited talk, Nov. 6th, 2015.
+
+A mobile sensing application involves sensor reading and data stream processing, both of which require real-time
+performance and efficient resource usage. To address the challenges, many compile-time optimizations through program
+analysis are proposed to improve the runtime efficiency. In this talk, I am going to introduce our recent contributions
+in this field including CSense and ESMS. CSense is a stream processing toolkit that facilitates concurrency safety and
+MATLAB component integration with enhanced memory performance on Android. ESMS stands for Efficient Static Memory
+management for Streaming that characterizes the whole program memory behaviors through complier-time analysis and
+exploits data sharing opportunities while eliminating unnecessary memory operations for speedup. Experimental results
+show up to 8.7X performance improvement and at most 96% reduction on memory requirements.

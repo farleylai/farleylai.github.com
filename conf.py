@@ -25,7 +25,7 @@ SITE_URL = "http://farley.futuresight.io/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "http://farley.futuresight.io/"
-BLOG_EMAIL = "farleylai@futuresight.io"
+BLOG_EMAIL = "farleylai[at]futuresight.io"
 BLOG_DESCRIPTION = "Towards the future."  # (translatable)
 
 # Nikola is multilingual!
@@ -134,9 +134,14 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
+        ("/pages/about.html", "About"),
+        ("/pages/projects.html", "Projects"),
+        ("/pages/research.html", "Research"),
+        ("/pages/events.html", "Events"),
+        ("/pages/art.html", "Art"),
         ("/archive.html", "Archive"),
-        ("/categories/", "Tags"),
-        ("/rss.xml", "RSS"),
+        #("/categories/", "Tags"),
+        #("/rss.xml", "RSS"),
     ),
 }
 
@@ -185,6 +190,7 @@ THEME_COLOR = '#5670d4'
 POSTS = (
     ("posts/*.ipynb", "posts", "post.tmpl"),
     ("posts/*.md", "posts", "post.tmpl"),
+    ("posts/*.ad", "posts", "post.tmpl"),
     ("posts/*.rst", "posts", "post.tmpl"),
     ("posts/*.txt", "posts", "post.tmpl"),
     ("posts/*.html", "posts", "post.tmpl"),
@@ -192,6 +198,7 @@ POSTS = (
 PAGES = (
     ("pages/*.ipynb", "pages", "page.tmpl"),
     ("pages/*.md", "pages", "page.tmpl"),
+    ("pages/*.ad", "pages", "page.tmpl"),
     ("pages/*.rst", "pages", "page.tmpl"),
     ("pages/*.txt", "pages", "page.tmpl"),
     ("pages/*.html", "pages", "page.tmpl"),
@@ -217,6 +224,7 @@ TIMEZONE = "America/New_York"
 # Date format used to display post dates. (translatable)
 # (str used by datetime.datetime.strftime)
 # DATE_FORMAT = '%Y-%m-%d %H:%M'
+DATE_FORMAT = '%m/%d/%Y'
 
 # Date format used to display post dates, if local dates are used. (translatable)
 # (str used by moment.js)
@@ -267,8 +275,9 @@ TIMEZONE = "America/New_York"
 # 'html' assumes the file is HTML and just copies it
 COMPILERS = {
     "ipynb": ('.ipynb',),
-    "rest": ('.rst', '.txt'),
     "markdown": ('.md', '.mdown', '.markdown'),
+    "asciidoc": ('.ad', '.asc', '.asciidoc'),
+    "rest": ('.rst', '.txt'),
     "textile": ('.textile',),
     "txt2tags": ('.t2t',),
     "bbcode": ('.bb',),
@@ -298,11 +307,11 @@ COMPILERS = {
 # Use date-based path when creating posts?
 # Can be enabled on a per-post basis with `nikola new_post -d`.
 # The setting is ignored when creating pages (`-d` still works).
-# NEW_POST_DATE_PATH = False
+NEW_POST_DATE_PATH = False
 
 # What format to use when creating posts with date paths?
 # Default is '%Y/%m/%d', other possibilities include '%Y' or '%Y/%m'.
-# NEW_POST_DATE_PATH_FORMAT = '%Y/%m/%d'
+NEW_POST_DATE_PATH_FORMAT = '%Y/%m' # '%Y/%m/%d'
 
 # If this is set to True, the DEFAULT_LANG version will be displayed for
 # untranslated posts.
@@ -937,14 +946,15 @@ FEED_LINKS_APPEND_QUERY = False
 # I recommend using the Creative Commons' wizard:
 # https://creativecommons.org/choose/
 LICENSE = """
-<a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
-<img alt="Creative Commons License BY-NC-SA"
+<a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+<img alt="Creative Commons License BY-NC-ND"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"></a>"""
+src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png"></a>"""
 
 # A small copyright notice for the page footer (in HTML).
 # (translatable)
-CONTENT_FOOTER = 'Contents &copy; {date}         <a href="mailto:{email}">{author}</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         {license}'
+CONTENT_FOOTER = 'Contents &copy; {date} <a href="mailto:{email}">{author}</a> {license} - Powered by <a href="https://getnikola.com" rel="nofollow">Nikola</a> '
+CONTENT_FOOTER = 'Contents &copy; {date} <a href="mailto:{email}">{author}</a> {license}'
 
 # Things that will be passed to CONTENT_FOOTER.format().  This is done
 # for translatability, as dicts are not formattable.  Nikola will
@@ -1036,7 +1046,7 @@ STRIP_INDEXES = True
 # This can be disabled on a per-page/post basis by adding
 #    .. pretty_url: False
 # to the metadata.
-PRETTY_URLS = True
+# PRETTY_URLS = True
 
 # If True, publish future dated posts right away instead of scheduling them.
 # Defaults to False.
@@ -1185,20 +1195,20 @@ COPY_SOURCES = not True
 # This search form works for any site and looks good in the "site" theme where
 # it appears on the navigation bar:
 #
-SEARCH_FORM = """
-<!-- DuckDuckGo custom search -->
-<form method="get" id="search" action="https://duckduckgo.com/"
- class="navbar-form pull-left">
-<input type="hidden" name="sites" value="%s">
-<input type="hidden" name="k8" value="#444444">
-<input type="hidden" name="k9" value="#D51920">
-<input type="hidden" name="kt" value="h">
-<input type="text" name="q" maxlength="255"
- placeholder="Search&hellip;" class="span2" style="margin-top: 4px;">
-<input type="submit" value="DuckDuckGo Search" style="visibility: hidden;">
-</form>
-<!-- End of custom search -->
-""" % SITE_URL
+# SEARCH_FORM = """
+# <!-- DuckDuckGo custom search -->
+# <form method="get" id="search" action="https://duckduckgo.com/"
+#  class="navbar-form pull-left">
+# <input type="hidden" name="sites" value="%s">
+# <input type="hidden" name="k8" value="#444444">
+# <input type="hidden" name="k9" value="#D51920">
+# <input type="hidden" name="kt" value="h">
+# <input type="text" name="q" maxlength="255"
+#  placeholder="Search&hellip;" class="span2" style="margin-top: 4px;">
+# <input type="submit" value="DuckDuckGo Search" style="visibility: hidden;">
+# </form>
+# <!-- End of custom search -->
+# """ % SITE_URL
 #
 # If you prefer a Google search form, here's an example that should just work:
 # SEARCH_FORM = """
@@ -1368,3 +1378,6 @@ GLOBAL_CONTEXT = {}
 # GLOBAL_CONTEXT as parameter when the template is about to be
 # rendered
 GLOBAL_CONTEXT_FILLER = []
+
+# Plugins
+ASCIIDOC_BINARY = "asciidoctor"

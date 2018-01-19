@@ -1,0 +1,83 @@
+////
+.. title: Research
+.. slug: research
+.. date: 2018-01-19 16:38:12 UTC-05:00
+.. tags: 
+.. category: 
+.. link: 
+.. description: 
+.. type: text
+////
+= Research
+Farley Lai
+{docdatetime}
+:jbake-type: page
+:jbake-status: published
+:jbake-tags: research
+
+== Interests
+
+- Mobile Sensing Applications and Stream Processing
+** Dataflow Modeling and Analysis
+** Memory Management through Code Analysis
+** High Performance Parallel Computation
+- Big Data Technologies and Pattern Recognition
+- Distributed Fault-Tolerant Computing (Self-stabilization)
+- Image Processing
+- Real-time Multimedia Streaming
+- Programming Methodology
+** Agile Software Development
+** eXtreme Programming
+** Test-Driven Development
+
+== Publications
+
+. [[Lai2015]]*Farley Lai*, Daniel Schmidt, and Octav Chipara, “link:/files/publications/ESMS.pdf[Static Memory Management for Efficient Mobile Sensing
+  Applications],” in __EMSOFT__, 2015
+. [[Lai2014]]*Farley Lai*, Syed Shabih Hasan, Austin Laugesen, and Octav Chipara, “link:/files/publications/CSense.pdf[CSense: A Stream-Processing Toolkit for
+  Robust and High-rate Mobile Sensing Applications],” in __IPSN__, 2014
+. [[Hasan2013]]Syed Shabih Hasan, *Farley Lai*, Octav Chipara, and Yu-Hsiang Wu,
+  “link:/files/publications/AudioSense.pdf[AudioSense: Enabling Real-time
+  Evaluation of Hearing Aid Technology In-Situ],” in __CBMS__, 2013
+
+== Technical Reports
+
+. *Farley Lai*, "link:/files/publications/HPSPO.pdf[High Performance Stream Processing and Optimizations]," Department of Computer Science, University of Iowa, 2015
+. *Farley Lai*, "link:/files/publications/DataCollectionAndBeyond.pdf[Data Collection and Beyond for Sensor Networks],"
+  Department of Computer Science, University of Iowa, 2012
+. Octav Chipara, *Farley Lai*, Austin Laugesen, and Syed Shabih Hasan, "link:files/publications/EgoSense.pdf[EgoSense: A
+  Minimally Intrusive Monitor of Social and Physical Activities]," Department of Computer Science, University of Iowa, 2012
+
+== Master Thesis
+
+. Shing-Tsaan Huang, *Farley Lai*, "link:/files/publications/alternator.pdf[Optimal Alternators with Reduced Space Complexity]," Department of Computer Science and Information Engineering, National Central University, 2004.
+
+== Undergraduate Theses
+
+. Chuan-Yi Tang, and *Farley Lai*, "The Study of Matching Chinese Speech Pauses with Text Punctuations," Department of Computer Science, National Tsing Hua University, 2002.
+. Amy J. C. Trappey, *Farley Lai*, Kuo-Fang Huang, Kuo-Chen Huang, and Tsung-Han Hsieh, "Mobile Office Based System for E-Business," Department of Industrial Engineering and Engineering Management, National Tsing Hua University, 2002.
+  This project focuses on customer relationship management (CRM) in e-Business and incorporates my work results in
+  Avectec.com, Inc.
+
+== Presentations
+
+++++
+<iframe allowfullscreen frameborder="0" width="500" height="420" marginwidth="0" marginheight="0" scrolling="no"
+src="//www.slideshare.net/slideshow/embed_code/key/nGuJXdhPZY5KcZ"></iframe>
+++++
+
+++++
+<iframe allowfullscreen frameborder="0" width="500" height="420" marginwidth="0" marginheight="0" scrolling="no"
+src="//www.slideshare.net/slideshow/embed_code/key/cdwmlWNUjnCLgs"></iframe>
+++++
+
+++++
+<iframe allowfullscreen frameborder="0" width="500" height="420" marginheight="0" marginwidth="0" scrolling="no"
+src="http://www.slideshare.net/slideshow/embed_code/33768238?rel=0" style="border-width: 0px 0px 0"></iframe>
+++++
+
+++++
+<iframe allowfullscreen frameborder="0" width="500" height="420" marginheight="0" marginwidth="0" scrolling="no"
+src="http://www.slideshare.net/slideshow/embed_code/31465823" style="border-width: 0px 0px 0"></iframe>
+++++
+

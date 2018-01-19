@@ -1,0 +1,98 @@
+////
+.. title: Projects
+.. slug: projects
+.. date: 2018-01-19 16:38:29 UTC-05:00
+.. tags: 
+.. category: 
+.. link: 
+.. description: 
+.. type: text
+////
+= Projects
+Farley Lai
+{docdatetime}
+:jbake-type: page
+:jbake-status: published
+:jbake-tags: project
+
+== Dict Eye
+
+video::v2haz09SM38[youtube, 480, 360]
+
+This app intended to integrate with Google glasses complements our eXtream Language Learning system (xLL). Imagine the
+camera serves as our eyes to capture vocabulary from all kinds of visual media. We demonstrate words and phrases from
+subtitles can be recognized according to a specified learner's level and show definitions in real-time. Vocabulary
+recognition statistics are collected for users to review in flashcards with spaced repetition after finishing watching
+the media. The real-time text tracking is supported by Qualcomm Vuforia.
+
+== Exploration of Text-Independent Speaker Identification Methods
+
+- (55:145) Pattern Recognition, Fall13, score A+
+- link:https://drive.google.com/a/dynagrid.net/file/d/0B4XuqKXDPDpRVEVibm9HSFplZzA/edit[Report]
+- link:https://goo.gl/VnZrKc[Slides]
+
+This work is motivated by the EgoSense project which aims at constructing social networks in real life by capturing
+human activities and interactions to monitor long-term user behavior patterns. Unlike online social networking services
+such as facebook, twitter and Google+, where convenient and efficient authentication of users is available,
+identification of human targets in real life remains challenging because of requirements of accuracy, robustness and
+least obtrusiveness. In view of least obtrusiveness, biometric recognition techniques based on face, fingerprint and
+voice are widely studied but the accuracy and robustness are usually limited for practical use due to insufficient
+training data for generalization and data collection channel dependency. In this project, we particularly focus on
+text-independent speaker identification of human voice. Its application can be seen in a customer relationship
+management system (CRM) such as a call center where users typically do not stay for long to contribute speech more than
+30 seconds for training and the system is expected to recognize a user quickly in 2 seconds. Though the technque has
+been comprehensively studied, most variants are based on the state of the art guassian mixture model (GMM) to represent
+speakers. Our goal is to explore and compare the performance of three main speaker identification methods. The first
+method serves as the baseline GMM without special adaptation and incorporating other techniques. The second method
+employs the universal background model (UBM) to highlight the differentiation between a speaker under test and the
+others. The third method utilizes the discriminating power of support vector machines (SVMs) to facilitate
+classifying confusing features. Besides the methods, we also present relevant implementation details of feature
+extraction and speech detection which are essential preprocessing to ensure good speaker identification performance.
+
+
+== Comparison of Image Registration Methods
+
+- (55:248) Advanced Digital Image Processing, Spr.13, score A
+- link:https://docs.google.com/a/dynagrid.net/file/d/0B4XuqKXDPDpROU9hb28yU1NiMDQ/view[Report]
+- link:https://docs.google.com/a/dynagrid.net/file/d/0B4XuqKXDPDpRRlQ5VGZnVEJHU3M/view[Slides]
+
+Image registration is the process to align corresponding points in two different image spaces.
+These images can be acquired from different sensors, views, time or dimensions.
+In this project, we evaluated four image registration methods which are performed on cross-modality datasets, including 
+point-based rigid transformation (PB1), point-based transformation with anisotropic scaling (PB2),
+iterative closest point algorithm (ICP) and intensity-based registration using mutual information (MI).
+PB1 and PB2 require manually selected corresponding fiducial points as the input and expected output in both image spaces.
+The methods compute the transformation iteratively by minimizing the root mean squre errors (RMSE) between the points in one image space 
+and those corresponding ones in the other space. For the ICP, two corresponding and partially overlapped surfaces in both 
+image spaces are selected and converted to point sets as the input and expected output.
+The algorithm computes the transformation by optimizing the weighted average distance between the two surfaces in each iteration. Though all the four
+methods compute the transformantions based on different measures,
+we intend to compare them by deriving common perforamance indices such as
+sum of squared differences (SSD), correslation coefficient (CC), joint entropy (H), 
+normalized mutual information (NMI) and employ t-test to show pairwise statistical significance.
+
+== Light Field Contour Tracking
+
+- (22c:196) Wireless Sensor Networks, Fall12, score A-
+- link:https://github.com/farleylai/wsn-contour-tracking[GitHub]
+- link:https://drive.google.com/a/dynagrid.net/file/d/0B4XuqKXDPDpRNzJmRFRPTnIxY1k/view?pli=1[Report]
+- link:https://drive.google.com/a/dynagrid.net/file/d/0B4XuqKXDPDpRM3ZOMTN0cS1vNkE/view?pli=1[Slides]
+
+This project will be to study and implement different algorithms for tracking contours on wireless sensor networks. To
+achieve the goal, we will need to set up a grid where a mote with a light sensor is located at each vertex. Each mote
+will be sending feedback to our laptop where all the data will be analyzed. We will estimate how the light is being
+dispersed throughout the grid using the intensity of the light sensed at the vertexes.
+
+== Construct a Small-World BitTorrent Swarm
+
+- (22c:196) Computational Epidemiology, Spr.12
+- link:https://drive.google.com/a/dynagrid.net/file/d/0B4XuqKXDPDpRZGxKa0tKbnBhUnM/view?pli=1[Report]
+- link:https://docs.google.com/presentation/d/1h-SZ3U-94LzqoloC7WRBXPYRoDbV74954na2oXVxS2o/edit?usp=sharing[Slides]
+
+Recent studies have shown a BitTorrent swarm may not be a small-world network
+because the peer selection strategy of the tracker is to assign a set of known peers randomly 
+regardless of individual characteristics. We propose a tracker side peer selection approach based on the file download 
+completion rank to generate a set of peers for a newly attending peer.
+The resulting swarm is expected to have small-world properties such as short average path lengths and larger clustering coefficients.
+Our simulation results demonstrate that a swarm with small-world properties generally performs better
+than random graph based swarms in terms of the piece hop availability measure despite large numbers of peers leaving.

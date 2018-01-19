@@ -1,0 +1,53 @@
+////
+.. title: Bio
+.. slug: about
+.. date: 2018-01-19 15:26:46 UTC-05:00
+.. tags: 
+.. category: 
+.. link: 
+.. description: 
+.. type: text
+////
+= Bio
+Farley Lai
+{docdatetime}
+:jbake-type: page
+:jbake-status: published
+:jbake-tags: resume
+
+[literal]
+....
+WANDERING BETWEEN SIN AND DISCIPLINE,
+WHAT I CAN DO IS MERELY TO LOOK AROUND AND LINGER ON IN VANITY FAIR.
+
+　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　--- FOREVER AND EVER
+....
+
+[.left]
+image::https://en.gravatar.com/userimage/13813144/9e503d38236640dee21eeef125c28957.jpg?size=125[]
+**Farley Lai** is a Ph.D. candidate under the supervision of Prof. Octav Chipara in Computer Science at the University of Iowa. 
+He received his M.S. with thesis on distributed mutual exclusion and scheduling fairness in Computer Science and Information Engineering from National Central University in Taiwan. 
+Before coming to the University of Iowa, he had been working in the surveillance industry and led a project of developing video management software. 
+His current research focuses on high performance stream processing in terms of modeling the runtime behavior and improving resource efficiency of stream applications through compile-time analysis. 
+
+An up-to-date link:/files/resume-farleylai.pdf[resume] is available for reference.
+He is reachable via link:http://www.linkedin.com/in/farleylai[social networks].
+
+[.right]
+image::http://2.bp.blogspot.com/-DFWgEdTYxd4/VIjfmXrq92I/AAAAAAAAZ5E/EXtdm2Od0S4/s1600/dd_badge_top10_2014.png[]
+
+== Honors and Awards
+
+- DevDraft Top 20 finalists 2015 with perfect code correctness and advanced CS achievements 2015
+- DevDraft Top 10 finalists 2014
+- Full tuition scholarship in Computer Science at the University of Iowa
+- NSF-funded student travel support to CPSWeek 2014 in the amount of $1500
+- $500 for SIGBED ESWEEK 2015 Student Travel Grant
+
+image::/images/Achievements-Oct15.png[align="left",width=50%]
+
+//[subs="none" align="right"]
+//++++
+//<script src="https://github.com/pipwerks/PDFObject/blob/master/pdfobject.min.js"></script>
+//<iframe src="/files/resume-farleylai.pdf" align="right" frameBorder="0" width="600" height="720"></iframe>
+//++++
