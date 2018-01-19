@@ -6,15 +6,11 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
-  <loc>http://farley.futuresight.io/galleries/rss.xml</loc>
-  <lastmod>2018-01-19T03:19:00Z</lastmod>
- </sitemap>
- <sitemap>
   <loc>http://farley.futuresight.io/rss.xml</loc>
-  <lastmod>2018-01-19T03:19:00Z</lastmod>
+  <lastmod>2018-01-19T04:17:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://farley.futuresight.io/sitemap.xml</loc>
-  <lastmod>2018-01-19T03:19:00Z</lastmod>
+  <lastmod>2018-01-19T04:17:00Z</lastmod>
  </sitemap>
 </sitemapindex>

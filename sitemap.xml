@@ -7,30 +7,22 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>http://farley.futuresight.io/</loc>
-  <lastmod>2018-01-19T03:01:00Z</lastmod>
+  <lastmod>2018-01-19T04:16:00Z</lastmod>
  </url>
  <url>
   <loc>http://farley.futuresight.io/2018/</loc>
-  <lastmod>2018-01-19T03:01:00Z</lastmod>
+  <lastmod>2018-01-19T04:16:00Z</lastmod>
  </url>
  <url>
   <loc>http://farley.futuresight.io/archive.html</loc>
-  <lastmod>2018-01-19T03:19:00Z</lastmod>
+  <lastmod>2018-01-19T04:17:00Z</lastmod>
  </url>
  <url>
   <loc>http://farley.futuresight.io/categories/</loc>
-  <lastmod>2018-01-19T03:01:00Z</lastmod>
- </url>
- <url>
-  <loc>http://farley.futuresight.io/galleries/</loc>
-  <lastmod>2018-01-19T03:01:00Z</lastmod>
- </url>
- <url>
-  <loc>http://farley.futuresight.io/listings/</loc>
-  <lastmod>2018-01-19T03:01:00Z</lastmod>
+  <lastmod>2018-01-19T04:16:00Z</lastmod>
  </url>
  <url>
   <loc>http://farley.futuresight.io/posts/jupyter-notebook-demo/</loc>
-  <lastmod>2018-01-19T03:01:00Z</lastmod>
+  <lastmod>2018-01-19T04:16:00Z</lastmod>
  </url>
 </urlset>
