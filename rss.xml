@@ -3,14 +3,35 @@
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/"&gt;
 &lt;img alt="Creative Commons License BY-NC-ND"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Fri, 19 Jan 2018 21:51:16 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Jupyter Notebook Demo</title><link>http://farley.futuresight.io/posts/jupyter-notebook-demo.html</link><dc:creator>Farley Lai</dc:creator><description>&lt;div tabindex="-1" id="notebook" class="border-box-sizing"&gt;
+src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Fri, 19 Jan 2018 23:09:11 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>New Year 2018</title><link>http://farley.futuresight.io/posts/2018/01/new-year-2018.html</link><dc:creator>Farley Lai</dc:creator><description>&lt;div tabindex="-1" id="notebook" class="border-box-sizing"&gt;
     &lt;div class="container" id="notebook-container"&gt;
 
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h2 id="IPython's-Rich-Display-System"&gt;IPython's Rich Display System&lt;a class="anchor-link" href="http://farley.futuresight.io/posts/jupyter-notebook-demo.html#IPython's-Rich-Display-System"&gt;¶&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id="New-Year-2018"&gt;New Year 2018&lt;a class="anchor-link" href="http://farley.futuresight.io/posts/2018/01/new-year-2018.html#New-Year-2018"&gt;¶&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;For the new year, my personal website builder migrates from JBake to Nikola which supports posts in the Jupyter notebook format.
+Yes, it is an era where mixing code and text in writings is common.
+In the past, people may choose to incorporate code sections in some formats such as markdown.
+However, it is still text based document not designed to run and play with!
+Jupyter notebook comes to rescue but a backend server is required.
+&lt;a href="https://mybinder.org"&gt;Binder&lt;/a&gt; is likely the answer to hosting Jupyter notebooks on GitHub when necessary.
+Therefore, a static website turns into an interactive one just in a blink of eyes.&lt;/p&gt;
+&lt;p&gt;What a Happy New Year!&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+</description><guid>http://farley.futuresight.io/posts/2018/01/new-year-2018.html</guid><pubDate>Fri, 19 Jan 2018 22:38:40 GMT</pubDate></item><item><title>Jupyter Notebook Demo</title><link>http://farley.futuresight.io/posts/2018/01/jupyter-notebook-demo.html</link><dc:creator>Farley Lai</dc:creator><description>&lt;div tabindex="-1" id="notebook" class="border-box-sizing"&gt;
+    &lt;div class="container" id="notebook-container"&gt;
+
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h2 id="IPython's-Rich-Display-System"&gt;IPython's Rich Display System&lt;a class="anchor-link" href="http://farley.futuresight.io/posts/2018/01/jupyter-notebook-demo.html#IPython's-Rich-Display-System"&gt;¶&lt;/a&gt;&lt;/h2&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -28,13 +49,5 @@ src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png"&gt;&lt;/a&gt;</copy
 &lt;li&gt;SVG&lt;/li&gt;
 &lt;li&gt;LaTeX&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;A single object can declare some or all of these representations; all are handled by IPython's &lt;em&gt;display system&lt;/em&gt;. This Notebook shows how you can use this display system to incorporate a broad range of content into your Notebooks.&lt;/p&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
-&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;p&gt;&lt;a href="http://farley.futuresight.io/posts/jupyter-notebook-demo.html"&gt;Read more…&lt;/a&gt; (10 min remaining to read)&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description><guid>http://farley.futuresight.io/posts/jupyter-notebook-demo.html</guid><pubDate>Thu, 18 Jan 2018 22:52:46 GMT</pubDate></item></channel></rss>
+&lt;p&gt;A single object can declare some or all of these representations; all are handled by IPython's &lt;em&gt;display system&lt;/em&gt;. This Notebook shows how you can use this display system to incorporate a broad range of content into your Notebooks.
+&lt;/p&gt;&lt;p&gt;&lt;a href="http://farley.futuresight.io/posts/2018/01/jupyter-notebook-demo.html"&gt;Read more…&lt;/a&gt; (10 min remaining to read)&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description><guid>http://farley.futuresight.io/posts/2018/01/jupyter-notebook-demo.html</guid><pubDate>Thu, 18 Jan 2018 22:52:46 GMT</pubDate></item></channel></rss>
