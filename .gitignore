@@ -3,6 +3,7 @@
 .doit*
 *.swp
 
+__pycache__
 cache
 output
 
