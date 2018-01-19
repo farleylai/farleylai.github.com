@@ -9722,6 +9722,7 @@ div.output_subarea {
 
 #footer {
     text-align: center;
+    background-color: transparent !important; 
 }
 
 .container {
