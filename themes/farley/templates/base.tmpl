@@ -35,13 +35,29 @@ ${template_hooks['extra_head']()}
                 ${search_form}
             %endif
 
-            <ul class="navbar-nav navbar-right">
+            ### <ul class="navbar-nav navbar-right">
+            <ul class="nav nav-pills nav-right">
                 ${base.html_navigation_links()}
                 ${template_hooks['menu']()}
                 <%block name="belowtitle">
                 %if len(translations) > 1:
-                    <li>${base.html_translations()}</li>
+                    <li class="nav-item">${base.html_translations()}</li>
                 %endif
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Shortcuts</a>
+                    <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; transform: translate3d(0px, 38px, 0px); top: 0px; left: 0px; will-change: transform;">
+                        <a class="dropdown-item" href="/pages/statistics.html">Statistics</a>
+                        <a class="dropdown-item" href="/pages/ml.html">Machine Learning</a>
+                        <a class="dropdown-item" href="/pages/dl.html">Deep Learning</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="/pages/sp.html">Stream Processing</a>
+                        <a class="dropdown-item" href="/pages/cc.html">Compiler Constructions</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="/pages/linux.html">Linux</a>
+                        <a class="dropdown-item" href="/pages/android.html">Android</a>
+                        <a class="dropdown-item" href="/pages/ios.html">MISC</a>
+                    </div>
+                </li>
                 </%block>
                 % if show_sourcelink:
                     <%block name="sourcelink"></%block>
