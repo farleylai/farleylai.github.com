@@ -7,50 +7,46 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>http://farley.futuresight.io/</loc>
-  <lastmod>2018-01-19T23:51:00Z</lastmod>
+  <lastmod>2018-01-20T02:20:00Z</lastmod>
  </url>
  <url>
   <loc>http://farley.futuresight.io/2018/</loc>
-  <lastmod>2018-01-19T21:51:00Z</lastmod>
+  <lastmod>2018-01-20T02:20:00Z</lastmod>
  </url>
  <url>
   <loc>http://farley.futuresight.io/archive.html</loc>
-  <lastmod>2018-01-20T02:19:00Z</lastmod>
+  <lastmod>2018-01-20T02:20:00Z</lastmod>
  </url>
  <url>
   <loc>http://farley.futuresight.io/categories/</loc>
-  <lastmod>2018-01-19T21:51:00Z</lastmod>
- </url>
- <url>
-  <loc>http://farley.futuresight.io/pages/about.html</loc>
-  <lastmod>2018-01-20T02:18:00Z</lastmod>
+  <lastmod>2018-01-20T02:20:00Z</lastmod>
  </url>
  <url>
   <loc>http://farley.futuresight.io/pages/art.html</loc>
-  <lastmod>2018-01-20T02:18:00Z</lastmod>
+  <lastmod>2018-01-20T02:20:00Z</lastmod>
  </url>
  <url>
   <loc>http://farley.futuresight.io/pages/bio.html</loc>
-  <lastmod>2018-01-20T02:19:00Z</lastmod>
+  <lastmod>2018-01-20T02:20:00Z</lastmod>
  </url>
  <url>
   <loc>http://farley.futuresight.io/pages/events.html</loc>
-  <lastmod>2018-01-20T02:18:00Z</lastmod>
+  <lastmod>2018-01-20T02:20:00Z</lastmod>
  </url>
  <url>
   <loc>http://farley.futuresight.io/pages/projects.html</loc>
-  <lastmod>2018-01-20T02:18:00Z</lastmod>
+  <lastmod>2018-01-20T02:20:00Z</lastmod>
  </url>
  <url>
   <loc>http://farley.futuresight.io/pages/research.html</loc>
-  <lastmod>2018-01-20T02:18:00Z</lastmod>
+  <lastmod>2018-01-20T02:20:00Z</lastmod>
  </url>
  <url>
   <loc>http://farley.futuresight.io/posts/2018/01/jupyter-notebook-demo.html</loc>
-  <lastmod>2018-01-20T02:19:00Z</lastmod>
+  <lastmod>2018-01-20T02:20:00Z</lastmod>
  </url>
  <url>
   <loc>http://farley.futuresight.io/posts/2018/01/new-year-2018.html</loc>
-  <lastmod>2018-01-20T02:19:00Z</lastmod>
+  <lastmod>2018-01-20T02:20:00Z</lastmod>
  </url>
 </urlset>
