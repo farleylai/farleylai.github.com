@@ -37,6 +37,19 @@ ${template_hooks['extra_head']()}
 
             ### <ul class="navbar-nav navbar-right">
             <ul class="nav nav-pills nav-right">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="/pages/about.html" role="button" aria-haspopup="true" aria-expanded="false">About</a>
+                    <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; transform: translate3d(0px, 38px, 0px); top: 0px; left: 0px; will-change: transform;">
+                        <a class="dropdown-item" href="/pages/bio.html">Bio</a>
+                        <a class="dropdown-item" href="/pages/events.html">Events</a>
+                        <a class="dropdown-item" href="/pages/art.html">Art</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="/archive.html">Archive</a>
+                        <a class="dropdown-item" href="/categories.html">Tags</a>
+                        <a class="dropdown-item" href="/rss.html">RSS</a>
+                    </div>
+                </li>
+
                 ${base.html_navigation_links()}
                 ${template_hooks['menu']()}
                 <%block name="belowtitle">
@@ -55,7 +68,7 @@ ${template_hooks['extra_head']()}
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="/pages/linux.html">Linux</a>
                         <a class="dropdown-item" href="/pages/android.html">Android</a>
-                        <a class="dropdown-item" href="/pages/ios.html">MISC</a>
+                        <a class="dropdown-item" href="/pages/ios.html">iOS</a>
                     </div>
                 </li>
                 </%block>
