@@ -111,8 +111,10 @@ div.output_subarea {
 
 /* Undo asciidoctor.css */
 
-.vcard { border: 0px !important; }
+.vcard { 
+    border: 0px; /* !important; */
+}
 
 #footer {
-    background-color: transparent !important; 
+    background-color: transparent; /* !important; */
 }

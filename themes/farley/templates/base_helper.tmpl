@@ -106,6 +106,7 @@ lang="${lang}">
 
 
 <%def name="html_stylesheets()">
+    <link href="/assets/css/asciidoctor.css" rel="stylesheet" type="text/css">
     %if use_bundles:
         %if use_cdn:
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
@@ -136,7 +137,6 @@ lang="${lang}">
     % elif not annotations and post and post.meta('annotations'):
         ${notes.css()}
     % endif
-    <link href="../assets/css/asciidoctor.css" rel="stylesheet" type="text/css">
 </%def>
 
 <%def name="html_navigation_links()">
