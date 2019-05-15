@@ -1,29 +1,11 @@
-#container {
-    width: 960px;
-    margin: 0 auto;
-}
-
-#contentcolumn {
-    max-width: 760px;
-}
-#q {
-    width: 150px;
-}
-
 img {
-    max-width: 90%;
-}
-
-.postbox {
-    border-bottom: 2px solid darkgrey;
-    margin-bottom: 12px;
+    max-width: 100%;
 }
 
 .titlebox {
     text-align: right;
 }
 
-#addthisbox {margin-bottom: 12px;}
 
 td.label {
     /* Issue #290 */
@@ -35,7 +17,6 @@ td.label {
     vertical-align: super;
     font-size: xx-small;
 }
-
 
 .caption {
     /* Issue 292 */
@@ -52,7 +33,7 @@ div.figure > a > img {
 }
 
 blockquote p, blockquote {
-  font-size: 17.5px;
+  font-size: 1.25rem;
   font-weight: 300;
   line-height: 1.25;
 }
@@ -65,10 +46,6 @@ ul.bricks > li {
     line-height: 3;
     white-space:nowrap;
     margin: 3px;
-}
-
-.at300b, .stMainServices, .stButton, .stButton_gradient {
-    box-sizing: content-box;
 }
 
 pre, pre code {
@@ -86,10 +63,6 @@ article.post-micro {
     display: inline-block;
 }
 
-.flowr_row {
-    width: 100%;
-}
-
 .tags {
     padding-left: 0;
     margin-left: -5px;
@@ -100,6 +73,9 @@ article.post-micro {
 
 .tags > li {
     display: inline-block;
+}
+.tags > li a {
+    display: inline-block;
     padding: .25em .4em;
     font-size: 75%;
     font-weight: 700;
@@ -109,12 +85,7 @@ article.post-micro {
     white-space: nowrap;
     vertical-align: baseline;
     border-radius: .25rem;
-    color: #fff;
     background-color: #868e96;
-}
-
-.tags > li a {
-    color: #fff;
 }
 
 .tags > li a:hover {
@@ -148,10 +119,6 @@ article.post-micro {
 
 .entry-content {
     margin-top: 1em;
-}
-
-.row {
-    margin: 0;
 }
 
 /* for alignment with Bootstrap's .entry-content styling */
@@ -243,8 +210,25 @@ ul.pager li a {
     padding: .5rem .75rem;
     margin-left: -1px;
     line-height: 1.25;
-    color: #007bff;
-    background-color: #fff;
     border: 1px solid #ddd;
     border-radius: .25rem;
+}
+
+.codetable td {
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
+}
+
+.codetable td.linenos pre {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right: none;
+}
+
+.codetable td.code pre.code {
+    margin-left: 0;
+    margin-right: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
 }
