@@ -1381,7 +1381,7 @@ FILE_METADATA_UNSLUGIFY_TITLES = CATEGORY_OUTPUT_FLAT_HIERARCHY
 # It can be anything, data, functions, modules, etc.
 GLOBAL_CONTEXT = {}
 GLOBAL_CONTEXT['HACK_VARIANT'] = 'dark'
-GLOBAL_CONTEXT['HACK_VARIANT'] = 'standard'
+GLOBAL_CONTEXT['HACK_VARIANT'] = 'dark-grey'
 
 
 # Add functions here and they will be called with template
