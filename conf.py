@@ -153,7 +153,7 @@ THEME = "hack"
 
 # Primary color of your theme. This will be used to customize your theme and
 # auto-generate related colors in POSTS_SECTION_COLORS. Must be a HEX value.
-THEME_COLOR = '#5670d4'
+# THEME_COLOR = '#5670d4'
 
 # POSTS and PAGES contains (wildcard, destination, template) tuples.
 # (translatable)
@@ -1382,6 +1382,8 @@ FILE_METADATA_UNSLUGIFY_TITLES = CATEGORY_OUTPUT_FLAT_HIERARCHY
 GLOBAL_CONTEXT = {}
 GLOBAL_CONTEXT['HACK_VARIANT'] = 'dark'
 GLOBAL_CONTEXT['HACK_VARIANT'] = 'dark-grey'
+GLOBAL_CONTEXT['HACK_VARIANT'] = 'solarized-dark'
+
 
 
 # Add functions here and they will be called with template
