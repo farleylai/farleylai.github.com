@@ -3,7 +3,10 @@
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/"&gt;
 &lt;img alt="Creative Commons License BY-NC-ND"
 style="border-width:0; margin-bottom:12px;"
-src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Wed, 15 May 2019 05:33:42 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>New Year 2018</title><link>http://farley.futuresight.io/posts/2018/01/new-year-2018/</link><dc:creator>Farley Lai</dc:creator><description>&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Thu, 17 Oct 2019 23:58:49 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>New Year 2018</title><link>http://farley.futuresight.io/posts/2018/01/new-year-2018/</link><dc:creator>Farley Lai</dc:creator><description>&lt;div tabindex="-1" id="notebook" class="border-box-sizing"&gt;
+    &lt;div class="container" id="notebook-container"&gt;
+
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;p&gt;For the new year, my personal website builder migrates from JBake to Nikola which supports posts in the Jupyter notebook format.
@@ -17,7 +20,10 @@ Therefore, a static website turns into an interactive one just in a blink of eye
 
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description><guid>http://farley.futuresight.io/posts/2018/01/new-year-2018/</guid><pubDate>Fri, 19 Jan 2018 22:38:40 GMT</pubDate></item><item><title>Jupyter Notebook Demo</title><link>http://farley.futuresight.io/posts/2018/01/jupyter-notebook-demo/</link><dc:creator>Farley Lai</dc:creator><description>&lt;div&gt;&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+</description><guid>http://farley.futuresight.io/posts/2018/01/new-year-2018/</guid><pubDate>Fri, 19 Jan 2018 22:38:40 GMT</pubDate></item><item><title>Jupyter Notebook Demo</title><link>http://farley.futuresight.io/posts/2018/01/jupyter-notebook-demo/</link><dc:creator>Farley Lai</dc:creator><description>&lt;div&gt;&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;h2 id="IPython's-Rich-Display-System"&gt;IPython's Rich Display System&lt;a class="anchor-link" href="http://farley.futuresight.io/posts/2018/01/jupyter-notebook-demo/#IPython's-Rich-Display-System"&gt;¶&lt;/a&gt;&lt;/h2&gt;
